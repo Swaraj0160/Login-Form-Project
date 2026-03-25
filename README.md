@@ -1,8 +1,7 @@
-# Login Authentication System (PHP & MySQL)
+# Login & Registration System using PHP and MySQL
 
 ## 📌 Project Overview
-This project is a complete Login and Registration system developed using HTML, CSS, JavaScript, PHP, and MySQL.
-It includes user authentication, session handling, and separate dashboards for Admin and User.
+This project is a session-based login and registration system developed using HTML, CSS, JavaScript, PHP, and MySQL with role-based access (Admin/User).
 
 ## 🛠 Technologies Used
 - HTML
@@ -22,13 +21,6 @@ It includes user authentication, session handling, and separate dashboards for A
 - Admin Dashboard
 - User Dashboard
 
-## 🔐 User Roles
-The system supports two types of users:
-- Admin
-- Normal User
-
-Passwords are stored using PHP password hashing for security.
-
 ## 🗄 Database Structure
 Database Name: users_db  
 Table Name: users  
@@ -47,7 +39,21 @@ Table Name: users
 3. Import `database.sql` into phpMyAdmin
 4. Place project folder in `htdocs`
 5. Open browser and go to:
-   http://localhost/Login-Form-Project
+   http://localhost/php-login-registration-system
+
+## 📸 Screenshots
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Register Page
+![Register](screenshots/register.png)
+
+### Admin Dashboard
+![Admin](screenshots/admin.png)
+
+### User Dashboard
+![User](screenshots/user.png)
 
 ## 👨‍💻 Author
 Swaraj Ingale
