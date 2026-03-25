@@ -1,7 +1,7 @@
 # Login Authentication System (PHP & MySQL)
 
 ## 📌 Project Overview
-This project is a complete Login and Registration system developed using HTML, CSS, JavaScript, PHP, and MySQL.  
+This project is a complete Login and Registration system developed using HTML, CSS, JavaScript, PHP, and MySQL.
 It includes user authentication, session handling, and separate dashboards for Admin and User.
 
 ## 🛠 Technologies Used
@@ -17,32 +17,37 @@ It includes user authentication, session handling, and separate dashboards for A
 - User Login
 - Admin Login
 - Session Management
-- Password Validation
+- Password Hashing
 - Logout System
 - Admin Dashboard
 - User Dashboard
 
-## 📂 Project Structure
-Login-Form-Project/
-│── index.php
-│── login_register.php
-│── admin_page.php
-│── user_page.php
-│── logout.php
-│── config.php
-│── style.css
-│── script.js
-│── README.md
+## 🔐 User Roles
+The system supports two types of users:
+- Admin
+- Normal User
+
+Passwords are stored using PHP password hashing for security.
+
+## 🗄 Database Structure
+Database Name: users_db  
+Table Name: users  
+
+| Column | Type |
+|-------|------|
+| id | INT (Primary Key) |
+| name | VARCHAR |
+| email | VARCHAR |
+| password | VARCHAR |
+| role | VARCHAR |
 
 ## ▶️ How to Run
 1. Install XAMPP/WAMP
 2. Start Apache and MySQL
-3. Create a database named `users_db`
-4. Import the SQL file (if provided)
-5. Place project folder in `htdocs`
-6. Open browser and go to:
-7. http://localhost/Login-Form-Project
-
+3. Import `database.sql` into phpMyAdmin
+4. Place project folder in `htdocs`
+5. Open browser and go to:
+   http://localhost/Login-Form-Project
 
 ## 👨‍💻 Author
 Swaraj Ingale
